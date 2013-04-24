@@ -1,0 +1,242 @@
+/** ------------------------------------------------------------------ 
+ * Make it look like dbwebb.se, builds upon Lydia.
+ */
+
+
+html.dbwebb {
+
+  /** ==============================================================
+   * Variables
+   */
+
+  @colorSiteTitle:       #444;
+  @colorSiteTitleShadow: #ccc;
+
+  @fontSizeSiteTitle: 40px;
+
+  @colorBorderBottomHeader: #bbb;
+
+
+  /** ==============================================================
+   * Header 
+   */
+  #inner-wrap-header {
+    //height: @magicNumber * 4;
+  }
+
+  #header{
+    padding-bottom: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px dotted @colorBorderBottomHeader;
+  }
+
+
+  /** --------------------------------------------------------------
+   * Banner 
+   *
+   */
+  #site-title {
+    top: 0; //4px;
+    font-size: @fontSizeSiteTitle;
+    color: @colorSiteTitle;
+    text-shadow: 2px -2px 2px @colorSiteTitleShadow;
+  }
+
+
+  /** --------------------------------------------------------------
+   * Navbar
+   */
+  #navbar1{
+    position: relative;
+    left: 180px;
+    top: 0;
+  }
+
+
+  /** --------------------------------------------------------------
+   * External links visible
+   */
+  a[href^="http"] {
+    padding-right: 13px;
+    background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAVklEQVR4Xn3PgQkAMQhDUXfqTu7kTtkpd5RA8AInfArtQ2iRXFWT2QedAfttj2FsPIOE1eCOlEuoWWjgzYaB/IkeGOrxXhqB+uA9Bfcm0lAZuh+YIeAD+cAqSz4kCMUAAAAASUVORK5CYII=") no-repeat scroll right center transparent;
+  }
+
+  a[href^="http://dbwebb.se"] {
+    padding-right: 0;
+    background: none;
+  }
+
+  a[href$=".pdf"] {
+    padding-right: 13px;
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAMCAYAAABbayygAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAZ0lEQVR4nGNgIAmknfmPjGXLL/2v3/T0P1aFyIAh7cx/49ZrWBSnnfn/8O3//2ceQDBD2pn/zz78/6/biK447cz/pSf//09bDMHozsBpIgw/fAvVhMtEGF56EotC6puIC2AoxItJAQBnweOKFBvqdQAAAABJRU5ErkJggg==') no-repeat scroll right center transparent;
+  }
+
+  .geshi a {
+    padding-right: 0;
+    background: none;
+  }
+
+}
+
+
+
+/** ==============================================================
+ * The footer column area.
+ *
+ */
+#inner-wrap-footer-column {
+  padding-top: 2em;
+  margin-bottom: @magicNumber;
+
+  h4 {
+    margin-bottom: @magicNumber / 3;
+  }
+}
+
+#inner-wrap-footer {
+  border-top: 1px solid @colorBorderLight;
+
+}
+
+#inner-wrap-footer,
+#inner-wrap-footer-column {
+  a {
+    color: inherit;
+
+    &:hover {
+      color: @anchorColorHover;
+    }
+  }
+}
+
+
+
+/** --------------------------------------------------------------
+ * IRC
+ */
+.irclog {
+  .font-size(@fontSizeSmall);
+  word-wrap: break-word;
+  
+  .time {
+    color: @colorBodyLighter;
+  }
+  
+  .user {
+
+  }
+  
+  .msg {
+
+  }
+}
+
+
+
+ /** --------------------------------------------------------------
+ * Frontpage (NOT PART OF DBWEBB, PART OF LYDIA?)
+ */
+ .box {
+  margin-bottom: @magicNumber * 2;
+
+  h4 {
+    background-color: @bgColorHtml;
+    #gradient .vertical(@bgColorHtml, @bgColorBody);
+    padding: 6px 0;
+    border-top: 1px solid @colorBorderLight;
+    border-bottom: 1px solid @colorBorderLight;
+    margin-bottom: @magicNumber / 2;
+    padding-left: 4px;
+  }
+
+  h4 a {
+    color: @colorBody;
+    text-decoration: none;
+    display: block;
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: @anchorColorHover;
+      text-decoration: underline;
+    }
+  }
+  
+  ul {
+    list-style: circle;
+  }
+}
+
+/* OBSOLETE
+.box-frontpage {
+  margin-bottom: 0;
+}
+*/
+
+ul.article-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+
+  li {
+    padding-bottom: 0.5em;
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  a {
+    .font-size(@fontSizeSmall);
+    color: @colorBody;
+    text-decoration: none;
+    //display: block;
+
+    &:first-letter {
+      font-weight: bold;
+    }
+
+    &:visited {
+      color: inherit;
+    }
+
+    &:hover {
+      color: @anchorColorHover;
+      text-decoration: underline;
+    }
+  }
+}
+
+.tip-title {
+  .anchor-anonymous();
+  margin-bottom: 0;
+}
+
+
+/** --------------------------------------------------------------
+* Misc. (NOT PART OF DBWEBB, PART OF LYDIA?)
+*/
+a.button {
+  display: block;
+  padding: 1em;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid @colorBorderLight;
+  .border-radius(40px);
+  color: @colorBody;
+  background-color: @bgColorHtml;
+  .box-shadow(2px 2px 2px 2px @grey);
+
+  &:hover {
+    color: @anchorColorHover;
+    text-decoration: underline;
+    background-color: darken(@bgColorHtml, 10%);
+    border-color: darken(@colorBorderLight, 10%);
+  }
+}
+
+
+

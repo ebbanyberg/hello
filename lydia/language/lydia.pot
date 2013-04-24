@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lydia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-25 14:08+0100\n"
+"PO-Revision-Date: 2012-05-25 14:09+0100\n"
+"Last-Translator: Mikael Roos <mikael.t.h.roos@gmail.com>\n"
+"Language-Team: Mikael Roos <me@mikaelroos.se>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t;_;gettext;gettext_noop\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:26
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:31
+msgid "RSS aggregation"
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:27
+msgid "@category (RSS aggregation)"
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:28
+msgid "@feed (RSS aggregation)"
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:70
+msgid "The category is invalid."
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:79
+msgid "The category does not exists."
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:98
+msgid "The feed is invalid."
+msgstr ""
+
+#: ../lydia/src/CCAllSeeingEye/CCAllSeeingEye.php:107
+msgid "The feed does not exists."
+msgstr ""
+
+#: ../lydia/src/CMRSSAggregator/config.php:8
+msgid "dbwebb"
+msgstr ""
+
+#: ../lydia/src/CMRSSAggregator/config.php:9
+msgid "Databases and Webbprogramming. Learn webdevelopment and be inspired from opensource. HTML, CSS, JavaScript, PHP, SQL, Unix."
+msgstr ""
+
+#: ../lydia/src/CMRSSAggregator/config.php:16
+msgid "dbwebb blogg"
+msgstr ""
+
+#: ../lydia/src/CMRSSAggregator/config.php:17
+msgid "dbwebb forum"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/category_sidebar.tpl.php:1
+msgid "Categories"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/category_sidebar.tpl.php:8
+msgid "In this category"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/feed.tpl.php:5
+msgid "Details for !site:"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/feed.tpl.php:6
+msgid "Website"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/feed.tpl.php:7
+msgid "RSS feed"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/feed_sidebar.tpl.php:8
+msgid "Related"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/feed_sidebar.tpl.php:16
+msgid "Latest"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/index.tpl.php:2
+msgid "RSS aggregation though the All-Seeing-Eye"
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/index.tpl.php:3
+msgid "The module CCAllSeeingEye is a Lydia application which does RSS aggregation. Subclass it, create a config.php-file to choose your feeds and customize the views to adapt it."
+msgstr ""
+
+#: ../lydia/views/CCAllSeeingEye/index.tpl.php:11
+msgid "Category:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:2
+msgid "Get inspired from a world of opensource"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:3
+msgid "Philosofy:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:9
+msgid "Unix & Linux:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:15
+msgid "Web servers:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:22
+msgid "Terminal, sftp & irc:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:30
+msgid "Texteditors:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:35
+msgid "Development tools:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:42
+msgid "MVC & CMS:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:49
+msgid "PHP libraries:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:53
+msgid "CSS frameworks:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_five.tpl.php:61
+msgid "JavaScript:"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_one.tpl.php:2
+msgid "Validators"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_three.tpl.php:2
+msgid "Resources"
+msgstr ""
+
+#: ../lydia/views/themes-grid/footer_column_two.tpl.php:2
+msgid "Manuals"
+msgstr ""
+
